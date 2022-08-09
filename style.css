@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Edu+QLD+Beginner:wght@500&family=Fira+Sans:ital,wght@1,700&family=Gentium+Book+Plus:ital@1&family=Kumbh+Sans:wght@400;700&family=Mingzat&family=Playfair+Display:ital,wght@1,700&family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(img-profile/bgtop.svg),url(img-profile/bgbottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh,
+    left 45vw top 44vh;
+    overflow: hidden;
+    font-family: 'Kumbh Sans' ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 350px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    margin-top: 9.5%;
+    margin-bottom: 9.5%;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.box .circle img{
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 4px solid #fff;
+    margin-bottom:15%;
+}
+.box .top h1,p{
+    font-weight: 400px;
+    font-size: 18px;
+}
+.top h1{
+    color: hsl(229, 23%, 23%);
+}
+.top p,
+scar{
+    color: hsl(227, 10%, 46%);
+}
+.top scar{
+    padding-left:4px;
+}
+.top p{
+    text-align: center;
+    margin: 15%;
+    font-size: 15px;
+}
+.information{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsla(227, 10%, 46%, 0.2);
+    margin-top: 10px;
+    padding: 25px 20px;
+    column-gap: 50px;
+}
+.number{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.city,
+.information p{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400px;
+    font-size: 15px;
+}
